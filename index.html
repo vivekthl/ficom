@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>First Commit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="css/main.css"></link>
+  <script type="text/javascript" src="js/main.js"> </script>
+</head>
+<body onload="init()">
+<div class="container">
+  <input type="text" class="textBox" id="username" placeholder="Username"/> <br> <br>
+  <input type="text" class="textBox" id="repo" placeholder="Repository"/> <br><br><br>
+  <input type="button" class="button" id="button" value="Get First Commit"/>
+  <br><br><br>
+  <div id="output"></div>
+</div>
+</body>
+<script type="text/javascript">
+
+  function init(){
+      FirstCommit.init(document.getElementById("output"),
+                       document.getElementById("button"),
+                       document.getElementById("username"),
+                       document.getElementById("repo"));
+  }
+
+
+</script>
+</html>
