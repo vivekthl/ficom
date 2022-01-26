@@ -1,2 +1,2 @@
 # first-commit
-Web app to find first commit of github repository.
+Find first commit of github repository.
