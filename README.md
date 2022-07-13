@@ -1,2 +1,2 @@
-# first-commit
+# ficom
 Find first commit of github repository.
