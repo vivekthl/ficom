@@ -1,26 +1,16 @@
+.container {
+    width:200px;
+    height:200px;
 
-/* CONTENT CONTAINER SECTION */
-div.container {
-    width:20%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:5%;
+    position:relative;
+    left:0; top:60; right:0; bottom:0;
+    
+    margin:auto;
 }
 
-
-/* Responsively change parameters according to screen size */
-/* If screen width is less than 680 pixels do as follows*/
-@media screen and (max-width:680px) {
-    div.container { width:35%;}
-}
-
-@media screen and (max-width:500px) {
-    div.container { width:55%;}
-}
-
-@media screen and (max-width:200px) {
-    div.container { width:60%;}
+body {
+    font-family:Arial, sans-serif;
+    color:#505050;
 }
 
 .message{
@@ -58,15 +48,15 @@ div.container {
     width:200px;
     outline:0;
 }
+
 .button {
-  position: relative;
-  vertical-align: top;
-  width: 200px;
-  height: 60px;
-  
-  font-size:12px;
-  color:#7f7fff;
   cursor:pointer;
+  margin-bottom:10%;
+
+}
+
+.button:hover {
+    border-bottom:1px solid lightgrey;
 }
 
 
@@ -76,15 +66,31 @@ div.container {
     color:#4e575b;
 }
 
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: grey;
+  color: #e9e9e9;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color:grey;
+  color: #e9e9e9;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color:grey;
+  color: #e9e9e9;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color:grey;
+  color: #e9e9e9;
 }
+
+
+/* Responsively change parameters according to screen size */
+/* If screen width is less than 680 pixels do as follows*/
+/* @media screen and (max-width:680px) { */
+/*     div.container { width:35%;} */
+/* } */
+
+/* @media screen and (max-width:500px) { */
+/*     div.container { width:55%;} */
+/* } */
+
+/* @media screen and (max-width:200px) { */
+/*     div.container { width:60%;} */
+/* } */
