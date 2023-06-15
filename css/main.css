@@ -42,10 +42,11 @@ body {
 }
 
 .textBox {
-    font-size:20px;
+    font-size:28px;
     border:0px;
     color:#505050;
     width:200px;
+    margin: auto;
     outline:0;
 }
 
@@ -58,8 +59,6 @@ body {
 .button:hover {
     border-bottom:1px solid lightgrey;
 }
-
-
 
 .loading{
     font-size:20px;
@@ -78,6 +77,30 @@ body {
 }
 :-moz-placeholder { /* Firefox 18- */
   color: #e9e9e9;
+}
+
+.flat-button {
+  position: relative;
+  vertical-align: top;
+  width: 220px;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #abcd;
+  border: 0;
+  border-bottom: 2px solid #abcd;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #abcd;
+  box-shadow: inset 0 -2px #abcd;
+}
+.flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 
